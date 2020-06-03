@@ -37,7 +37,7 @@ class HomeController extends Controller
         // dd($user->photos);
         // dd($user->tags);
         // dd($user->pages);
-        dd($page->tags);
+        // dd($page->tags);
         return view('home');
     }
 }
